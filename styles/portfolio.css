@@ -30,7 +30,6 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
 }
 
 /* Nav Related Styles */
@@ -107,11 +106,14 @@ nav a {
     margin-bottom: 30px;
     color: #757575;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
 }
 
 /* Main Section Styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About Section Styles */
 
@@ -120,4 +122,13 @@ nav a {
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
